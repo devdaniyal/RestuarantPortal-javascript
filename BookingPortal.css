@@ -1,0 +1,80 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.row{
+  margin: 0;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  .heading1{
+    font-size: 3vw;
+    color: #ffffff;
+    font-weight: 700;
+  }
+  .head2{
+    font-size: 1.7vw;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: -0.8vw;
+  }
+  .backImage{
+    background-image: url("BackImg.PNG");
+    height: 609px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .texTCentre{
+    text-align: center;
+  }
+  .btn_text{
+    color: white;
+    font-size: 1.3vw;
+    font-weight: 700;
+  }
+  .btn_style{
+    padding: 1.3vw;
+    width: 11vw;
+    background-color: #d48e00a8;
+    /* background-image: linear-gradient(to right, #d13928 51%, #ff334c 100%); */
+    background-image: linear-gradient(to right, #212c82 , #616ed4 );
+    border: none;
+    border-radius: 0.5vw;
+    box-shadow: 0px 4px 8.9vw rgba(0, 0 ,0 , 0.20);
+  }
+  .btnBook_text{
+    color: white;
+    font-size: 1.3vw;
+    font-weight: 700;
+  }
+  .btnBook_style{
+    padding: 1.3vw;
+    width: 11vw;
+    background-image: linear-gradient(to right, #ec8b5e , #c4531d 100%);
+    /* background-image: linear-gradient(to right, #b25a38 , #b24238 80%); */
+    border: none;
+    border-radius: 0.5vw;
+    box-shadow: 0px 4px 8.9vw rgba(0, 0 ,0 , 0.20);
+  }
+  .btn_styling{
+    padding: 1.3vw;
+    width: 11vw;
+    background-color: black;
+    /* background-image: linear-gradient(to right, #fda085 51%, #f6d365 100%); */
+    border: none;
+    border-radius: 0.5vw;
+    box-shadow: 0px 4px 8.9vw rgba(0, 0 ,0 , 0.20);
+  }

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Restuarant Portol</title>
+    <link rel="stylesheet" href="BookingPortal.css">
+</head>
+
+<body class="backImage">
+    <div class="row">
+        <div class="col-12 texTCentre">
+            <h1 class="heading1">Chinese Restuarant Portol</h1>
+            <h3 class="head2">Book Your Suitable Timing & Table</h3>
+        </div>
+    </div>
+    <div class="row" style="margin-left: -2vw;">
+        <div class="col-3"></div>
+        <div class="col-2">
+            <button class="btn_style" onclick="myValue(this.value,this.id)" value="12pm" id="dij">
+                <span class="btn_text">12pm</span>
+            </button>
+        </div>
+        <div class="col-2">
+            <button class="btn_style" onclick="myValue(this.value,this.id)" value="3pm" id="dpj">
+                <span class="btn_text">3pm</span>
+            </button>
+        </div>
+        <div class="col-2">
+            <button class="btn_style" onclick="myValue(this.value,this.id)" value="8pm" id="dopj">
+                <span class="btn_text">8pm</span>
+            </button>
+        </div>
+        <div class="col-1"></div>
+    </div><br>
+    <div class="row" style="margin-left: -2vw;">
+        <div class="col-3"></div>
+        <div class="col-2">
+            <button class="btn_style" onclick="myFun(this.value,this.id)" value="Table No.1" id="djd">
+                <span class="btn_text">Table No.1</span>
+            </button>
+        </div>
+        <div class="col-2">
+            <button class="btn_style" onclick="myFun(this.value,this.id)" value="Table No.2" id="dani">
+                <span class="btn_text">Table No.2</span>
+            </button>
+        </div>
+        <div class="col-2">
+            <button class="btn_style" onclick="myFun(this.value,this.id)" value="Table No.3" id="jani">
+                <span class="btn_text">Table No.3</span>
+            </button>
+        </div>
+        <div class="col-1"></div>
+    </div><br>
+    <div class="row" style="margin-left: -2vw;">
+        <div class="col-3"></div>
+        <div class="col-2">
+            <button class="btn_style" onclick="myFav(this.value,this.id)" value="Breakfast" id="mehd">
+                <span class="btn_text">Breakfast</span>
+            </button>
+        </div>
+        <div class="col-2">
+            <button class="btn_style" onclick="myFav(this.value,this.id)" value="Lunch" id="mad">
+                <span class="btn_text">Lunch</span>
+            </button>
+        </div>
+        <div class="col-2">
+            <button class="btn_style" onclick="myFav(this.value,this.id)" value="Dinner" id="menu">
+                <span class="btn_text">Dinner</span>
+            </button>
+        </div>
+        <div class="col-1"></div>
+    </div>
+    <div class="row" style="margin-left: -2vw;">
+        <div class="col-3"></div>
+        <div class="col-2"> </div>
+        <div class="col-2">
+            <button class="btnBook_style" onclick="bookAlert()">
+                <span class="btnBook_text">Book Now</span>
+            </button>
+        </div>
+        <div class="col-2">
+        </div>
+        <div class="col-1"></div>
+    </div><br>
+    <script src="BookingPortal.js"></script>
+</body>
+
+</html>
